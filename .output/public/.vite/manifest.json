@@ -1,0 +1,76 @@
+{
+  "_framework-BgSIrAUN.js": {
+    "file": "_next/static/chunks/framework-BgSIrAUN.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js"
+    ]
+  },
+  "_practices-50afNd2N.js": {
+    "file": "_next/static/chunks/practices-50afNd2N.js",
+    "name": "practices"
+  },
+  "_rolldown-runtime-C60lm6uB.js": {
+    "file": "_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+    "name": "rolldown-runtime"
+  },
+  "components/landing/contact-section.tsx": {
+    "file": "_next/static/chunks/contact-section-DgiKMH-2.js",
+    "name": "contact-section",
+    "src": "components/landing/contact-section.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_practices-50afNd2N.js",
+      "_framework-BgSIrAUN.js"
+    ]
+  },
+  "components/landing/practices-section.tsx": {
+    "file": "_next/static/chunks/practices-section-FJbhsSKj.js",
+    "name": "practices-section",
+    "src": "components/landing/practices-section.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_practices-50afNd2N.js",
+      "_framework-BgSIrAUN.js"
+    ]
+  },
+  "components/landing/site-header.tsx": {
+    "file": "_next/static/chunks/site-header-D8RXv9QO.js",
+    "name": "site-header",
+    "src": "components/landing/site-header.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_framework-BgSIrAUN.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "_next/static/chunks/layout-segment-context-BEAqN-oS.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-BgSIrAUN.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "_next/static/chunks/index-BjFG-8Wi.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_framework-BgSIrAUN.js"
+    ],
+    "dynamicImports": [
+      "virtual:vinext-app-browser-entry",
+      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "components/landing/practices-section.tsx",
+      "components/landing/site-header.tsx",
+      "components/landing/contact-section.tsx"
+    ]
+  }
+}
