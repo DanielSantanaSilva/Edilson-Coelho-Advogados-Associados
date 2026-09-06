@@ -1,0 +1,3 @@
+export function HeroSection() {
+  return <section className="hero" id="inicio"><div className="hero-image" aria-hidden="true" /><div className="hero-content"><p className="eyebrow">ASSESSORIA JURÍDICA ESTRATÉGICA</p><h1>Segurança jurídica para seguir <i>adiante.</i></h1><p>Decisões importantes merecem uma advocacia que une técnica, presença e visão de futuro.</p><div className="hero-actions"><a className="button button-primary" href="#contato">Falar com um advogado <span>→</span></a><a className="button button-outline" href="#atuacao">Conhecer áreas de atuação</a></div></div><div className="hero-footer"><span>DESDE 2007</span><span>EXCELÊNCIA · PROXIMIDADE · CONFIANÇA</span></div></section>;
+}
